@@ -18,7 +18,7 @@ MongoClient.connect(db.url, {
     }
     // Make sure to add the database name and not the collection name
     const translationDatabase = database.db("legesher-translations");
-    translations(app, translationDatabase);
+    translations(app, translationDaatabase);
 });
 
 app.listen(port, () => {
